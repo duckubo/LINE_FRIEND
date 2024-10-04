@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/action_home"
+        android:icon="@drawable/outline_home_24"
+        android:onClick="trangchu"
+        android:title="@string/tc" />
+    <item
+        android:id="@+id/action_yeuthich"
+        android:icon="@drawable/outline_favorite_24"
+        android:onClick="yeuthich"
+        android:title="@string/yt" />
+    <item
+        android:id="@+id/action_muasam"
+        android:icon="@drawable/outline_shopping_cart_24"
+        android:onClick="muasam"
+        android:title="@string/ms" />
+    <item
+        android:id="@+id/action_timkiem"
+        android:icon="@drawable/outline_search_24"
+        android:onClick="timkiem"
+        android:title="@string/tk" />
+    <item
+        android:id="@+id/action_taikhoan"
+        android:icon="@drawable/outline_account_circle_24"
+        android:onClick="taikhoan"
+        android:title="@string/taik" />
+
+</menu>

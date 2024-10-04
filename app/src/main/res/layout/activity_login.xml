@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Login"
+    android:background="#C6E3F9"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <ImageView
+        android:layout_marginTop="7dp"
+        android:layout_width="220dp"
+        android:layout_height="220dp"
+        android:src="@drawable/logo" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="LINE FRIENDS"
+        android:textStyle="bold"
+        android:textSize="26sp"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:layout_marginTop="10dp"/>
+
+    <LinearLayout
+        android:layout_width="328dp"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Login"
+            android:textColor="#424242"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tên đăng nhập: "
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="32dp"/>
+
+        <LinearLayout
+            android:layout_width="260dp"
+            android:layout_height="35dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="32dp"
+            android:background="#EAE7E7">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/login"
+                android:layout_marginLeft="2dp"
+                android:layout_gravity="center"/>
+
+            <EditText
+                android:id="@+id/edtName"
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:hint="Tên đăng nhập"
+                android:textSize="16sp"
+                android:inputType="text"
+                android:layout_marginLeft="12dp"
+                android:background="@null"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_marginTop="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mật khẩu: "
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:layout_marginLeft="32dp"/>
+
+        <LinearLayout
+            android:layout_width="260dp"
+            android:layout_height="35dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="32dp"
+            android:orientation="horizontal"
+            android:background="#EAE7E7">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_baseline_lock_24"
+                android:layout_marginLeft="2dp"
+                android:layout_gravity="center"/>
+
+            <EditText
+                android:id="@+id/edtPass"
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:hint="Mật khẩu"
+                android:textSize="16sp"
+                android:inputType="textPassword"
+                android:layout_marginLeft="12dp"
+                android:background="@null"/>
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/hidepass"
+                android:background="#EAE7E7"
+                android:layout_gravity="center"
+                android:layout_marginLeft="118dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="32dp"
+            android:layout_marginRight="32dp">
+
+            <Button
+                android:id="@+id/btnForgotPass"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Quên mật khẩu"
+                android:textSize="12sp"
+                android:backgroundTint="#C6E3F9"
+                android:textColor="@color/black"/>
+
+            <Button
+                android:id="@+id/btnRegister"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Đăng ký"
+                android:layout_marginLeft="24dp"
+                android:textSize="12sp"
+                android:backgroundTint="#C6E3F9"
+                android:textColor="@color/black"/>
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnLogin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Đăng nhập"
+            android:textSize="16sp"
+            android:backgroundTint="#34C759"
+            android:textColor="@color/white"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"/>
+
+        <Button
+            android:id="@+id/btnSkip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Skip for now"
+            android:textSize="12sp"
+            android:backgroundTint="#1EE7F1EA"
+            android:textColor="@color/teal_700"
+            android:layout_gravity="center"/>
+
+    </LinearLayout>
+
+</LinearLayout>

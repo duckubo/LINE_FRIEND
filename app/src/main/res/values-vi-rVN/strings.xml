@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="giảm">Giảm đ10.000</string>
+    <string name="tttk">Thông tin tài khoản</string>
+    <string name="tkct">Tài khoản của tôi</string>
+    <string name="ten">Tên</string>
+    <string name="email">Email</string>
+    <string name="dienthoai">Điện thoại</string>
+    <string name="gioitinh">Giới tính</string>
+    <string name="ngaysinh">Ngày sinh</string>
+    <string name="luu">Lưu thay đổi</string>
+    <string name="doimk">Đổi Mật Khẩu</string>
+    <string name="donhang">Đơn hàng</string>
+    <string name="voucher">Voucher</string>
+    <string name="thongbao">Thông báo</string>
+    <string name="mualai">Mua lại</string>
+    <string name="them">Xem thêm</string>
+    <string name="diachi">Địa chỉ</string>
+    <string name="tknh">Tài khoản ngân hàng</string>
+    <string name="hotro">Hỗ trợ</string>
+    <string name="dangxuat">Đăng xuất</string>
+    <string name="toi">Tôi</string>
+    <string name="dnn">Đổi ngôn ngữ</string>
+    <string name="dmk">Đổi mật khẩu</string>
+    <string name="tc">Trang chủ</string>
+    <string name="yt">Yêu thích</string>
+    <string name="ms">Mua sắm</string>
+    <string name="tk">Tìm kiếm</string>
+    <string name="taik">Tài khoản</string>
+</resources>

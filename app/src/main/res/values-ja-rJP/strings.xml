@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Team5_Android_Final</string>
+
+
+    <string name="tinh">市/県</string>
+    <string name="huyen">区域</string>
+    <string name="xa">病棟</string>
+    <string name="đ"><u>đ</u></string>
+    <string name="giảm">割引d10,000VND</string>
+    <string name="tttk">口座情報</string>
+    <string name="tkct">マイアカウント</string>
+    <string name="ten">名前</string>
+    <string name="email">Eメール</string>
+    <string name="dienthoai">電話</string>
+    <string name="gioitinh">セックス</string>
+    <string name="ngaysinh">生年月日</string>
+    <string name="luu">保存する</string>
+    <string name="doimk">パスワードを変更する</string>
+    <string name="donhang">注文</string>
+    <string name="voucher">バウチャー</string>
+    <string name="thongbao">通知する</string>
+    <string name="mualai">買い戻し</string>
+    <string name="them">続きを見る</string>
+    <string name="diachi">住所</string>
+    <string name="tknh">銀行口座</string>
+    <string name="hotro">サポート</string>
+    <string name="dangxuat">ログアウト</string>
+    <string name="toi">自分</string>
+    <string name="dnn">言語を変えてください </string>
+    <string name="dmk">自分</string>
+    <string name="tc">Trang chủ</string>
+    <string name="yt">Yêu thích</string>
+    <string name="ms">Mua sắm</string>
+    <string name="tk">Tìm kiếm</string>
+    <string name="taik">Tài khoản</string>
+</resources>

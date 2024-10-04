@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Team5_Android_Final</string>
+
+
+    <string name="tinh">시/도</string>
+    <string name="huyen">구역</string>
+    <string name="xa">병동</string>
+    <string name="đ"><u>đ</u></string>
+    <string name="giảm">할인 d10,000 VND</string>
+    <string name="tttk">계정 정보</string>
+    <string name="tkct">내 계정</string>
+    <string name="ten">이름</string>
+    <string name="email">이메일</string>
+    <string name="dienthoai">핸드폰</string>
+    <string name="gioitinh">섹스</string>
+    <string name="ngaysinh">생일</string>
+    <string name="luu">변경 사항을 저장하다</string>
+    <string name="doimk">비밀번호 변경</string>
+    <string name="donhang">주문하다</string>
+    <string name="voucher">보증인</string>
+    <string name="thongbao">알림</string>
+    <string name="mualai">환매</string>
+    <string name="them">더보기</string>
+    <string name="diachi">주소</string>
+    <string name="tknh">은행 계좌</string>
+    <string name="hotro">지원하다</string>
+    <string name="dangxuat">로그 아웃</string>
+    <string name="toi">나</string>
+    <string name="dnn">언어 변경</string>
+    <string name="dmk">自分</string>
+    <string name="tc">홈페이지</string>
+    <string name="yt">가장 좋아하는</string>
+    <string name="ms">쇼핑</string>
+    <string name="tk">찾다</string>
+    <string name="taik">계정</string>
+</resources>

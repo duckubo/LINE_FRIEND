@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Team5_Android_Final</string>
+
+
+    <string name="tinh">City/Province</string>
+    <string name="huyen">District</string>
+    <string name="xa">Wards</string>
+    <string name="đ"><u>đ</u></string>
+    <string name="giảm">Discount d10,000 VND</string>
+    <string name="tttk">Account information</string>
+    <string name="tkct">My account</string>
+    <string name="ten">Name</string>
+    <string name="email">Email</string>
+    <string name="dienthoai">Phone</string>
+    <string name="gioitinh">Sex</string>
+    <string name="ngaysinh">Date of birth</string>
+    <string name="luu">Save changes</string>
+    <string name="doimk">Change Password</string>
+    <string name="donhang">Order</string>
+    <string name="voucher">Voucher</string>
+    <string name="thongbao">Notification</string>
+    <string name="mualai">Re-order</string>
+    <string name="them">More</string>
+    <string name="diachi">Address</string>
+    <string name="tknh">Bank account</string>
+    <string name="hotro">Support</string>
+    <string name="dangxuat">Log out</string>
+    <string name="toi">Me</string>
+    <string name="dnn">Change language </string>
+    <string name="dmk">Change password</string>
+    <string name="tc">Home</string>
+    <string name="yt">Favor</string>
+    <string name="ms">Shopping</string>
+    <string name="tk">Search</string>
+    <string name="taik">Account</string>
+</resources>

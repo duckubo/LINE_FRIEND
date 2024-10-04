@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity_XacNhanMatKhau"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="horizontal">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TableRow android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/imvBack"
+                    android:layout_width="42dp"
+                    android:layout_height="35dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10dp"
+                    android:src="@drawable/ic_baseline_arrow_back_24" />
+
+                <TextView
+                    android:id="@+id/txtXacNhanMatKhau"
+                    android:layout_width="275dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:layout_marginStart="10dp"
+                    android:text="Xác nhận mật khẩu"
+                    android:textColor="@color/black"
+                    android:textSize="25dp" />
+            </TableRow>
+        </TableLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Để đảm bảo tài khoản của bạn an toàn, vui
+lòng nhập mật khẩu hiện tại để tiếp tục"
+            android:textSize="18sp"
+            android:textColor="#999999"/>
+        <EditText
+            android:id="@+id/edtMatKhauHienTai"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="20dp"
+            android:hint="Mật khẩu hiện tại"/>
+        <Button
+            android:id="@+id/btnLuuThayDoi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="#C4C4C4"
+            android:text="Tiếp tục"
+            android:textColor="#656260"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="20dp"
+            android:text="Quên mật khẩu?"
+            android:gravity="center"
+            android:textColor="#272727"/>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="10">
+        <CheckBox
+            android:id="@+id/chkSanPham"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"/>
+        <ImageView
+            android:id="@+id/imvHinh"
+            android:layout_width="0dp"
+            android:layout_weight="3"
+            android:layout_height="match_parent"/>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="6"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <TextView
+                android:id="@+id/txtTenSanPham"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bút bi hình trái tim"
+                android:textSize="25dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp">
+
+                <TextView
+                    android:id="@+id/txtGia"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="2dp"
+                    android:text="50.000"
+                    android:textColor="#6ADE8B"
+                    android:textSize="25dp" />
+                <TextView
+                    android:id="@+id/txtGiamGia"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="Giảm 10000"
+                    android:textColor="#A7A7A7"
+                    android:textSize="16dp"
+                    android:gravity="center"
+                    android:paddingLeft="20dp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:weightSum="5"
+                android:orientation="horizontal">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="5">
+                    <Button
+                        android:id="@+id/btnGiam"
+                        android:layout_width="60dp"
+                        android:layout_height="match_parent"
+                        android:backgroundTint="@color/white"
+                        android:text="-"
+                        android:gravity="center_horizontal"
+                        android:focusable="false"
+                        android:textColor="#A7A7A7"
+                        android:textSize="30sp" />
+
+                    <Button
+                        android:id="@+id/btnSoLuong"
+                        android:focusable="false"
+                        android:layout_width="90dp"
+                        android:gravity="center_horizontal"
+                        android:layout_marginLeft="2dp"
+                        android:layout_height="match_parent"
+                        android:backgroundTint="@color/white"
+                        android:textColor="@color/black"
+                        android:textSize="30dp"
+                        android:text="1" />
+
+                    <Button
+                        android:id="@+id/btnTang"
+                        android:layout_width="60dp"
+                        android:gravity="center_horizontal"
+                        android:layout_height="match_parent"
+                        android:backgroundTint="@color/white"
+                        android:focusable="false"
+                        android:layout_marginLeft="2dp"
+                        android:text="+"
+                        android:textColor="#A7A7A7"
+                        android:textSize="30sp" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

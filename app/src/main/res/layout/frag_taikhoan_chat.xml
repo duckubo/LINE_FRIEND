@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity_Chat"
+    android:orientation="vertical"
+    android:weightSum="10">
+
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="@color/white"
+        android:orientation="horizontal"
+        android:weightSum="10">
+
+        <ImageView
+            android:id="@+id/imvBack"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:src="@drawable/ic_baseline_arrow_back_24" />
+
+        <TextView
+            android:id="@+id/txtGiohang"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_weight="7"
+            android:text="Chat"
+            android:textColor="@color/black"
+            android:textSize="25dp" />
+
+        <ImageView
+            android:id="@+id/imvCall"
+            android:layout_weight="1.5"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:src="@drawable/icon_call" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/txtChat"
+        android:layout_weight="8"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_below="@+id/id1"
+        android:text="Hello!"
+        android:textSize="20sp"/>
+
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:weightSum="10">
+        <ImageView
+            android:id="@+id/btnChupHinh"
+            android:layout_weight="1.5"
+            android:layout_width="30dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/icon_img"
+            android:layout_gravity="center_vertical"/>
+        <EditText
+            android:id="@+id/edtNhanTin"
+            android:layout_weight="7"
+            android:layout_width="280dp"
+            android:layout_height="match_parent"
+            android:hint="Nhắn tin..."
+            android:layout_gravity="center"/>
+        <ImageView
+            android:id="@+id/btnSend"
+            android:layout_weight="1.5"
+            android:layout_width="30dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/icon_send"/>
+    </LinearLayout>
+</LinearLayout>

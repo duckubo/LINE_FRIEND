@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity_ThemTheNganHang"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <LinearLayout
+        android:weightSum="10"
+        android:layout_width="match_parent"
+        android:layout_height="45dp">
+
+        <ImageButton
+            android:id="@+id/btnBack"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="45dp"
+            android:src="@drawable/ic_baseline_arrow_back_24"
+            android:backgroundTint="@color/white"
+            android:gravity="center"/>
+
+        <TextView
+            android:layout_weight="9"
+            android:layout_width="0dp"
+            android:layout_height="45dp"
+            android:text="Thêm thẻ"
+            android:textSize="24sp"
+            android:textColor="@color/black"
+            android:gravity="center"/>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#DCD6D6"/>
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:orientation="horizontal"
+        android:weightSum="10">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:src="@drawable/security"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text="Thông tin thẻ của bạn được bảo mật"
+                android:textColor="#00D665"
+                android:layout_gravity="center"
+                android:textSize="16sp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:text="Chúng tôi hợp tác với CyberSource để đảm bảo thông tin thẻ của bạn được giữ an toàn và bảo mật. Line Friends sẽ không có quyền truy cập vào thông tin thẻ của bạn"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:layout_gravity="center"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#DCD6D6"/>
+
+    <LinearLayout
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:orientation="vertical"
+                android:weightSum="10">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:text="Chi tiết thẻ"
+                    android:textSize="16sp"
+                    android:textColor="@color/black"
+                    android:layout_marginTop="5dp"/>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:background="#DCD6D6"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:weightSum="10">
+                    <TextView
+                        android:layout_weight="7"
+                        android:layout_width="0dp"
+                        android:layout_height="30dp"
+                        android:text="Họ và tên chủ thẻ"
+                        android:textColor="@color/black"
+                        android:textSize="14sp"/>
+
+                    <EditText
+                        android:id="@+id/edtName"
+                        android:background="@null"
+                        android:layout_weight="3"
+                        android:layout_width="0dp"
+                        android:layout_height="30dp"
+                        android:hint="Tên trên thẻ"
+                        android:inputType="text"
+                        android:textColor="#A7A7A7"
+                        android:textSize="14sp"
+                        android:gravity="end" />
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:background="#DCD6D6"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:weightSum="10">
+                    <TextView
+                        android:layout_weight="4"
+                        android:layout_width="0dp"
+                        android:layout_height="30dp"
+                        android:text="Số thẻ"
+                        android:textColor="@color/black"
+                        android:textSize="14sp"/>
+
+                    <EditText
+                        android:id="@+id/edtNumberCard"
+                        android:background="@null"
+                        android:layout_weight="6"
+                        android:layout_width="0dp"
+                        android:layout_height="30dp"
+                        android:hint="Số thẻ"
+                        android:inputType="number"
+                        android:textColor="#A7A7A7"
+                        android:textSize="14sp"
+                        android:gravity="right"/>
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:background="#DCD6D6"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="10">
+                    <TextView
+                        android:layout_weight="3.5"
+                        android:layout_width="0dp"
+                        android:layout_height="30dp"
+                        android:text="Loại thẻ"
+                        android:textColor="@color/black"
+                        android:textSize="14sp"/>
+
+                    <EditText
+                        android:id="@+id/edtLoaiThe"
+                        android:layout_weight="3.5"
+                        android:layout_width="0dp"
+                        android:layout_height="30dp"
+                        android:background="@null"/>
+
+                    <ImageView
+                        android:id="@+id/imvVisa"
+                        android:layout_weight="1"
+                        android:layout_width="0dp"
+                        android:layout_height="30dp"
+                        android:src="@drawable/visa"/>
+
+                    <ImageView
+                        android:id="@+id/imvMasterCard"
+                        android:layout_weight="1"
+                        android:layout_width="0dp"
+                        android:layout_height="30dp"
+                        android:src="@drawable/mastercard"/>
+
+                    <ImageView
+                        android:id="@+id/imvJcb"
+                        android:layout_weight="1"
+                        android:layout_width="0dp"
+                        android:layout_height="30dp"
+                        android:src="@drawable/jcb"/>
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:background="#DCD6D6"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:weightSum="10">
+                    <TextView
+                        android:layout_weight="7"
+                        android:layout_width="0dp"
+                        android:layout_height="30dp"
+                        android:text="Ngày hết hạn"
+                        android:textColor="@color/black"
+                        android:textSize="14sp"/>
+
+                    <EditText
+                        android:id="@+id/edtNgayHetHan"
+                        android:background="@null"
+                        android:layout_weight="3"
+                        android:layout_width="0dp"
+                        android:layout_height="30dp"
+                        android:hint="MM/YY"
+                        android:inputType="date"
+                        android:textColor="#A7A7A7"
+                        android:textSize="14sp"
+                        android:gravity="end"/>
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:background="#DCD6D6"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="30dp"
+                        android:text="CVV"
+                        android:textColor="@color/black"
+                        android:textSize="14sp"
+                        android:gravity="center"/>
+
+                    <ImageView
+                        android:layout_marginLeft="5dp"
+                        android:layout_width="18dp"
+                        android:layout_height="18dp"
+                        android:src="@drawable/icon_hotro"
+                        android:layout_gravity="center"/>
+
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:background="#DCD6D6"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="30dp"
+                        android:text="Địa chỉ đăng ký thẻ Tín dụng/Ghi nợ"
+                        android:textColor="@color/black"
+                        android:textSize="14sp"/>
+
+                    <EditText
+                        android:id="@+id/edtDiaChi"
+                        android:background="@null"
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:hint="Nhập địa chỉ"
+                        android:gravity="left"
+                        android:textColor="#A7A7A7"
+                        android:textSize="14sp" />
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:background="#DCD6D6"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="30dp"
+                        android:text="Mã bưu chính"
+                        android:textColor="@color/black"
+                        android:textSize="14sp"
+                        android:gravity="center"/>
+
+                    <EditText
+                        android:id="@+id/edtMaBuuChinh"
+                        android:background="@null"
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:gravity="left"
+                        android:textColor="#A7A7A7"
+                        android:textSize="14sp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="80dp"
+                    android:gravity="bottom">
+                    <Button
+                        android:id="@+id/btnFinish"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Hoàn thành"
+                        android:textColor="@color/white"
+                        android:backgroundTint="#00D665"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </ScrollView>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,171 @@
+<resources>
+    <string name="app_name" translatable="false">Line Friends</string>
+    <string name="tinh" translatable="false">Thành phố/ Tỉnh thành*</string>
+    <string name="huyen" translatable="false">Quận/ Huyện*</string>
+    <string name="xa" translatable="false">Phường/ Xã</string>
+    <string name="đ" translatable="false"><u>đ</u></string>
+    <string-array name="array_tinh">
+
+        <item>Thành phố/ Tỉnh thành (*)</item>
+        <item>An Giang</item>
+        <item>Bà rịa – Vũng tàu</item>
+        <item>Bắc Giang</item>
+        <item>Bắc Kạn</item>
+        <item>Bạc Liêu</item>
+        <item>Bắc Ninh</item>
+        <item>Bến Tre</item>
+        <item>Bình Định</item>
+        <item>Bình Dương</item>
+        <item>Bình Phước</item>
+        <item>Bình Thuận</item>
+        <item>Cà Mau</item>
+        <item>Cần Thơ</item>
+        <item>Cao Bằng </item>
+        <item>Đà Nẵng</item>
+        <item>Đắk Lắk</item>
+        <item>Đắk Nông</item>
+        <item>Điện Biên</item>
+        <item>Đồng Nai</item>
+        <item>Đồng Tháp</item>
+        <item>Gia Lai</item>
+        <item>Hà Giang</item>
+        <item>Hà Nam</item>
+        <item>Hà Nội </item>
+        <item>Hà Tĩnh</item>
+        <item>Hải Dương</item>
+        <item>Hải Phòng</item>
+        <item>Hậu Giang</item>
+        <item>Hòa Bình</item>
+        <item>Hưng Yên</item>
+        <item>Khánh Hòa</item>
+        <item>Kiên Giang</item>
+        <item>Kon Tum</item>
+        <item>Lai Châu</item>
+        <item>Lâm Đồng</item>
+        <item>Lạng Sơn</item>
+        <item>Lào Cai</item>
+        <item>Long An</item>
+        <item>Nam Định</item>
+        <item>Nghệ An</item>
+        <item>Ninh Bình</item>
+        <item>Ninh Thuận</item>
+        <item>Phú Thọ</item>
+        <item>Phú Yên</item>
+        <item>Quảng Bình</item>
+        <item>Quảng Nam</item>
+        <item>Quảng Ngãi</item>
+        <item>Quảng Ninh</item>
+        <item>Quảng Trị</item>
+        <item>Sóc Trăng</item>
+        <item>Sơn La</item>
+        <item>Tây Ninh</item>
+        <item>Thái Bình</item>
+        <item>Thái Nguyên</item>
+        <item>Thanh Hóa</item>
+        <item>Thừa Thiên Huế</item>
+        <item>Tiền Giang</item>
+        <item>Thành phố Hồ Chí Minh</item>
+        <item>Trà Vinh</item>
+        <item>Tuyên Quang</item>
+        <item>Vĩnh Long</item>
+        <item>Vĩnh Phúc</item>
+        <item>Yên Bái</item>
+
+    </string-array>
+
+    <string-array name="arrray_default_huyen">
+        <item>Quận/ Huyện (*)</item>
+    </string-array>
+
+    <string-array name="array_daklak_huyen">
+        <item>Quận/ Huyện (*)</item>
+        <item>Thành phố Buôn Ma Thuột</item>
+        <item>Thị xã Buôn Hồ</item>
+        <item>Huyện Buôn Đôn</item>
+        <item>Huyện Cư Kuin</item>
+        <item>Huyện Cư M’gar</item>
+        <item>Huyện Ea H’leo</item>
+        <item>Huyện Ea Kar</item>
+        <item>Huyện Ea Súp</item>
+        <item>Huyện Krông Ana</item>
+        <item>Huyện Krông Bông</item>
+        <item>Huyện Krông Búk</item>
+        <item>Huyện Krông Năng</item>
+        <item>Huyện Krông Pắk</item>
+        <item>Huyện Lắk</item>
+        <item>Huyện M’Đrắk</item>
+    </string-array>
+    <string-array name="array_angiang_huyen">
+        <item>Quận/ Huyện (*)</item>
+        <item>Thành phố Long Xuyên</item>
+        <item>Thành phố Châu Đốc</item>
+        <item>Huyện An Phú</item>
+        <item>Thị xã Tân Châu</item>
+        <item>Huyện Phú Tân</item>
+        <item>Huyện Châu Phú</item>
+        <item>Huyện Tịnh Biên</item>
+        <item>Huyện Tri Tôn</item>
+        <item>Huyện Châu Thành</item>
+        <item>Huyện Chợ Mới</item>
+        <item>Huyện Thoại Sơn</item>
+    </string-array>
+
+    <string-array name="array_hanam_huyen">
+        <item>Quận/ Huyện (*)</item>
+        <item>Thành phố Phủ Lý</item>
+        <item>Huyện Thanh Liêm</item>
+        <item>Huyện Bình Lục</item>
+        <item>Huyện Duy Tiên</item>
+        <item>Huyện Lý Nhân</item>
+        <item>Huyện Kim Băng</item>
+    </string-array>
+
+    <string-array name="arrray_default_xa">
+        <item>Phường/ Xã (*)</item>
+    </string-array>
+
+    <string-array name="array_angiang_thanhpholongxuyen_xa">
+        <item>Phường/ Xã (*)</item>
+        <item>Phường Mỹ Bình</item>
+        <item>Phường Mỹ Long</item>
+        <item>Phường Đông Xuyên</item>
+        <item>Phường Mỹ Xuyên</item>
+        <item>Phường Bình Đức</item>
+        <item>Phường Bình Khánh</item>
+        <item>Phường Mỹ Phước</item>
+        <item>Phường Mỹ Quý</item>
+        <item>Phường Mỹ Thới</item>
+        <item>Phường Mỹ Thạnh</item>
+        <item>Phường Mỹ Hòa</item>
+        <item>Xã Mỹ Khánh</item>
+        <item>Xã Mỹ Hoà Hưng</item>
+    </string-array>
+
+    <string name="giảm">Giảm đ10.000</string>
+    <string name="tttk">Thông tin tài khoản</string>
+    <string name="tkct">Tài khoản của tôi</string>
+    <string name="ten">Tên</string>
+    <string name="email">Email</string>
+    <string name="dienthoai">Điện thoại</string>
+    <string name="gioitinh">Giới tính</string>
+    <string name="ngaysinh">Ngày sinh</string>
+    <string name="luu">Lưu thay đổi</string>
+    <string name="doimk">Đổi Mật Khẩu</string>
+    <string name="donhang">Đơn hàng</string>
+    <string name="voucher">Voucher</string>
+    <string name="thongbao">Thông báo</string>
+    <string name="mualai">Mua lại</string>
+    <string name="them">Xem thêm</string>
+    <string name="diachi">Địa chỉ</string>
+    <string name="tknh">Tài khoản ngân hàng</string>
+    <string name="hotro">Hỗ trợ</string>
+    <string name="dangxuat">Đăng xuất</string>
+    <string name="toi">Tôi</string>
+    <string name="dnn">Đổi ngôn ngữ</string>
+    <string name="dmk">Đổi mật khẩu</string>
+    <string name="tc">Trang chủ</string>
+    <string name="yt">Yêu thích</string>
+    <string name="ms">Mua sắm</string>
+    <string name="tk">Tìm kiếm</string>
+    <string name="taik">Tài khoản</string>
+</resources>

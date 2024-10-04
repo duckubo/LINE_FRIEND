@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/btnBack"
+        android:title="Back"
+        android:icon="@drawable/ic_baseline_arrow_back_24"
+        app:showAsAction="ifRoom"
+        />
+    <item
+    android:id="@+id/btnSearch"
+    android:title="Search View"
+    app:actionViewClass="android.widget.SearchView"
+    android:icon="@android:drawable/ic_menu_search"
+    app:showAsAction="always"
+    />
+    <item
+        android:id="@+id/btnSearchCamera"
+        android:title="Search Camera"
+        android:icon="@android:drawable/ic_menu_camera"
+        app:showAsAction="ifRoom"
+        />
+
+</menu>
